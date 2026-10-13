@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 6</title>
+    <link rel="stylesheet" href="grids.css">
+    <style>
+      .topo{
+         border: 1px solid black;
+         margin-bottom: 5px;
+         height: 80px;
+         border-bottom: 2px red;
+      }
+
+      .menu{
+         border: 1px solid black;
+         height: 40px;
+         margin-bottom: 5px;
+      }
+
+      .publicidade{
+         border: 1px solid black;
+         height: 100px;
+         margin-bottom: 5px;
+      }
+
+      .colunaA{
+         border: 1px solid black;
+         height: 320px;
+         margin-bottom: 5px;
+      }
+
+      .colunaB{
+       
+      }
+
+      .coluna-c{
+         background-color: aqua;
+         height: 100px;
+         margin-bottom: 10px;
+      }
+
+      .coluna-d{
+         background-color: rgb(0, 99, 112);
+         height: 160px;
+         margin-bottom: 10px;
+      }
+
+      .resumo-noticias div{
+         border: 1px solid red;
+         height: 320px;
+         
+      }
+
+       .resumo-not div{
+         border: 1px solid red;
+         height: 150px;
+         margin-bottom: 10px;
+      }
+
+      .rodape{
+         border: 1px solid black;
+      
+      }
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+       
+          <div class="row">
+             <div class="col-12 topo">
+                <h1>Topo</h1>
+             </div>
+          </div>
+
+          <div class="row">
+              <div class="col-12 menu">
+                <h1>Menu</h1>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-12 publicidade">
+                <h1>Publicidade</h1>
+              </div>
+          </div>
+
+          
+          <div class="row gap-1">
+              <div class="col-6 colunaA">
+                  <div class="row gap-1 resumo-noticias">
+                    <div class="col-6">Imagem</div>
+                    <div class="col-6">Imagem</div>
+                 </div>
+              </div>
+              <div class="col-6 colunaB">
+                 <div class="row">
+                   <div class="col-12 ">
+                      <div class="row gap-1 resumo-not">
+                       <div class="col-6">Imagem</div>
+                       <div class="col-6">Imagem</div>
+                   </div>
+                  </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-12 coluna-d"> Coluna D</div>
+                 </div>
+                 
+              </div>
+          </div>
+
+          <div class="row ">
+               <div class="col-12 rodape">Rodapé</div>
+          </div>
+
+
+
+    </div>
+    
+</body>
+</html>
